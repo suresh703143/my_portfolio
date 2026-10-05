@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Y. Suresh Kumar | CSE Student & Full-Stack Developer</title>
+  <meta name="description"
+    content="Portfolio of Y. Suresh Kumar — 3rd Year CSE Student at SIMATS Engineering (CGPA 8.8). Developer specializing in full-stack web platforms, cloud sandboxes, and browser extensions." />
+  <meta name="keywords"
+    content="Y. Suresh Kumar, Suresh Kumar, Portfolio, CSE Student, SIMATS Engineering, Tiny Tripzz, DevEnv Sandbox, FocusGuard, Full Stack Developer, Web Development" />
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Y. Suresh Kumar | CSE Student & Web Developer" />
+  <meta property="og:description"
+    content="Building real-world web platforms, cloud runtimes, and full-stack solutions." />
+  <meta property="og:image" content="Im2.jpeg" />
+
+  <!-- Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="port.css" />
+</head>
+
+<body>
+
+  <!-- Tech Grid Background Pattern & Dynamic Canvas -->
+  <div class="bg-grid-pattern"></div>
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ==========================================================================
+       HEADER / NAVBAR
+       ========================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <div class="nav-left">
+        <a href="#hero" class="brand-logo">
+          <img src="Im2.jpeg" alt="Y. Suresh Kumar" class="brand-avatar-circle" />
+          <span class="brand-text">Y. Suresh Kumar</span>
+        </a>
+        <div class="nav-status-badge">
+          <span class="status-pulse-dot"></span>
+          <span>Open for Internship</span>
+        </div>
+      </div>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#hero" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section id="hero" class="hero-section">
+    <div class="hero-ambient-glow"></div>
+    <div class="container hero-container">
+      <div class="hero-badge-row">
+        <div class="status-pill">
+          <span class="pulse-dot"></span>
+          <span>Seeking 3-4 Month Internship &bull; Web Dev &amp; AI</span>
+        </div>
+      </div>
+
+      <h1 class="hero-headline">
+        Hi, I'm <span class="accent-text">Y. Suresh Kumar</span>
+      </h1>
+      <p class="hero-role">CSE Student &amp; Web Developer</p>
+
+      <p class="hero-description">
+        Building practical full-stack web applications, real-time tools, and clean user experiences.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ABOUT ME & ACADEMICS SECTION
+       ========================================================================== -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">// Background</div>
+        <h2 class="section-title">About <span class="accent-text">Me</span></h2>
+        <p class="section-subtitle">Academic foundation paired with practical web engineering experience.</p>
+      </div>
+
+      <div class="about-grid">
+        <!-- Visual Profile Card -->
+        <div class="about-card-visual">
+          <div class="avatar-wrapper">
+            <img src="Im2.jpeg" alt="Y. Suresh Kumar" class="about-circular-avatar" />
+            <div class="avatar-badge"><i class="fas fa-code"></i></div>
+          </div>
+          <h3 class="about-card-title">Y. Suresh Kumar</h3>
+          <p class="about-card-sub">CSE Student &amp; Full-Stack Developer</p>
+
+          <ul class="about-highlights-list">
+            <li class="about-highlight-item">
+              <i class="fas fa-check-circle"></i>
+              <span><strong>Education:</strong> Computer Science &amp; Engineering at SIMATS.</span>
+            </li>
+            <li class="about-highlight-item">
+              <i class="fas fa-check-circle"></i>
+              <span><strong>Focus:</strong> Full-Stack Development &amp; Problem Solving.</span>
+            </li>
+            <li class="about-highlight-item">
+              <i class="fas fa-check-circle"></i>
+              <span><strong>Experience:</strong> Cloud Sandboxes, Auth, APIs &amp; Extensions.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Bio & Credentials Card -->
+        <div class="about-bio-card">
+          <!-- Text Bio (Preserved untouched) -->
+          <div class="about-bio">
+            <p class="about-bio-text">
+              Hi, I'm <strong>Y. Suresh Kumar</strong>, a 3rd-year Computer Science Engineering student at SIMATS
+              Engineering, Chennai,
+              interested in Web development and building practical web applications.
+            </p>
+            <p class="about-bio-text">
+              I have hands-on experience with Java, Python, HTML, CSS, SQL and FastAPI, along with
+              tools such as Git, GitHub, and VS Code.
+              I enjoy working on projects that help me strengthen my programming, web development, and problem-solving
+              skills. <br>
+
+              I’m currently focusing on Java, Data Structures and Algorithms, web development, and exploring AI/ML
+              concepts.
+              I’m always learning, experimenting with new technologies, and improving my ability to turn ideas into
+              functional and user-friendly applications.
+            </p>
+          </div>
+
+          <!-- Academic Credentials (from Resume) -->
+          <div class="credentials-block">
+            <h4 class="credentials-heading">
+              <i class="fas fa-graduation-cap"></i> Education
+            </h4>
+
+            <div class="credentials-grid">
+              <!-- Degree 1 -->
+              <div class="credential-card">
+                <div class="credential-header">
+                  <span class="credential-title">B.E. Computer Science &amp; Eng.</span>
+                  <span class="credential-score">8.8 CGPA</span>
+                </div>
+                <div class="credential-meta">SIMATS Engineering, Chennai &bull; 2024 &ndash; 2028</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SKILLS & TECHNOLOGIES
+       ========================================================================== -->
+  <section id="skills" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">// Tech Stack</div>
+        <h2 class="section-title">Skills &amp; <span class="accent-text">Technologies</span></h2>
+        <p class="section-subtitle">Core programming languages, libraries, databases, and development tooling.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Category 1: Languages -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-left">
+              <div class="cat-icon-circle"><i class="fas fa-code"></i></div>
+              <h3>Languages</h3>
+            </div>
+            <span class="skill-count-badge">5 Languages</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-chip"><i class="fab fa-html5"></i> HTML</span>
+            <span class="skill-chip"><i class="fab fa-css3-alt"></i> CSS</span>
+            <span class="skill-chip"><i class="fab fa-java"></i> Java</span>
+            <span class="skill-chip"><i class="fab fa-js"></i> JavaScript <span class="skill-level">(basics)</span></span>
+            <span class="skill-chip"><i class="fab fa-python"></i> Python <span class="skill-level">(basics)</span></span>
+          </div>
+        </div>
+
+        <!-- Category 2: Databases & Libraries -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-left">
+              <div class="cat-icon-circle"><i class="fas fa-layer-group"></i></div>
+              <h3>Databases &amp; Libraries</h3>
+            </div>
+            <span class="skill-count-badge">2 Frameworks</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-chip"><i class="fas fa-database"></i> MySQL</span>
+            <span class="skill-chip"><i class="fab fa-react"></i> React</span>
+          </div>
+        </div>
+
+        <!-- Category 3: Concepts -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-left">
+              <div class="cat-icon-circle"><i class="fas fa-cubes"></i></div>
+              <h3>Concepts</h3>
+            </div>
+            <span class="skill-count-badge">5 Domains</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-chip"><i class="fas fa-network-wired"></i> REST APIs</span>
+            <span class="skill-chip"><i class="fas fa-code-branch"></i> DOM Manipulation</span>
+            <span class="skill-chip"><i class="fas fa-shield-halved"></i> User Authentication</span>
+            <span class="skill-chip"><i class="fas fa-mobile-screen"></i> Responsive Design</span>
+            <span class="skill-chip"><i class="fas fa-globe"></i> Web Development</span>
+          </div>
+        </div>
+
+        <!-- Category 4: Tools & Platforms -->
+        <div class="skill-category-card">
+          <div class="skill-cat-header">
+            <div class="skill-cat-left">
+              <div class="cat-icon-circle"><i class="fas fa-toolbox"></i></div>
+              <h3>Tools &amp; Platforms</h3>
+            </div>
+            <span class="skill-count-badge">6 Platforms</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-chip"><i class="fab fa-github"></i> GitHub</span>
+            <span class="skill-chip"><i class="fas fa-code"></i> Visual Studio Code</span>
+            <span class="skill-chip"><i class="fas fa-paper-plane"></i> Postman</span>
+            <span class="skill-chip"><i class="fas fa-bolt"></i> Vercel</span>
+            <span class="skill-chip"><i class="fas fa-server"></i> Render</span>
+            <span class="skill-chip"><i class="fas fa-cloud"></i> Netlify</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PROJECTS SECTION
+       ========================================================================== -->
+  <section id="projects" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">// Portfolio</div>
+        <h2 class="section-title">Featured <span class="accent-text">Projects</span></h2>
+        <p class="section-subtitle">Real-world applications, cloud code execution sandboxes, and browser extensions.</p>
+      </div>
+
+      <!-- Quick Interactive Filter Pills -->
+      <div class="projects-filter-bar">
+        <button class="filter-btn active" data-filter="all">All Projects (5)</button>
+        <button class="filter-btn" data-filter="fullstack">Full-Stack &amp; Cloud (3)</button>
+        <button class="filter-btn" data-filter="tools">APIs &amp; Extensions (2)</button>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- FEATURED PROJECT: Tiny Tripzz (Full-Stack) -->
+        <div class="project-card featured-card" data-category="fullstack">
+          <div>
+            <div class="project-card-header">
+              <span class="project-category-badge">Travel Platform</span>
+              <span class="project-status-pill deployed"><i class="fas fa-circle-check"></i> Deployed on Netlify</span>
+            </div>
+
+            <h3 class="project-title">
+              Tiny Tripzz &mdash; Travel Discovery Platform
+              <i class="fas fa-arrow-up-right-from-square title-arrow"></i>
+            </h3>
+
+            <ul class="project-bullets">
+              <li>Developed and deployed a responsive travel-planning website using HTML, CSS, and JavaScript, featuring 30+ affordable destinations with distance, budget, speciality and travel information.</li>
+              <li>Integrated Google Maps and public transport information to help students plan routes and estimate travel requirements.</li>
+            </ul>
+
+            <div class="project-tech-stack">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Google Maps API</span>
+              <span class="tech-pill">Netlify</span>
+            </div>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://tinytripzz.netlify.app/" target="_blank" rel="noopener noreferrer"
+              class="btn btn-primary btn-sm">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+            <a href="https://github.com/suresh703143" target="_blank" rel="noopener noreferrer"
+              class="btn btn-secondary btn-sm">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 2: DevEnv Sandbox (Full-Stack / Cloud) -->
+        <div class="project-card" data-category="fullstack">
+          <div>
+            <div class="project-card-header">
+              <span class="project-category-badge">Cloud Execution Engine</span>
+              <span class="project-status-pill deployed"><i class="fas fa-circle-check"></i> Deployed on Render</span>
+            </div>
+
+            <h3 class="project-title">
+              DevEnv Sandbox
+              <i class="fas fa-arrow-up-right-from-square title-arrow"></i>
+            </h3>
+
+            <ul class="project-bullets">
+              <li>Built a cloud code execution sandbox that clones any GitHub repo, auto-detects the stack, and streams live terminal output via WebSockets &mdash; Replit-style.</li>
+              <li>Implemented monorepo folder detection, shareable output links, and live deployment on Render using Node.js, Express, and child_process.</li>
+            </ul>
+
+            <div class="project-tech-stack">
+              <span class="tech-pill">Node.js</span>
+              <span class="tech-pill">Express</span>
+              <span class="tech-pill">WebSockets</span>
+              <span class="tech-pill">child_process</span>
+              <span class="tech-pill">Render</span>
+            </div>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://devenv-sandbox.onrender.com/" target="_blank" rel="noopener noreferrer"
+              class="btn btn-primary btn-sm">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+            <a href="https://github.com/suresh703143/DevEnv-sandbox" target="_blank" rel="noopener noreferrer"
+              class="btn btn-secondary btn-sm">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 3: Diary Web Application (Full-Stack) -->
+        <div class="project-card" data-category="fullstack">
+          <div>
+            <div class="project-card-header">
+              <span class="project-category-badge">Full-Stack Web App</span>
+              <span class="project-status-pill deployed"><i class="fas fa-circle-check"></i> Deployed on Vercel</span>
+            </div>
+
+            <h3 class="project-title">
+              Diary Web Application
+              <i class="fas fa-arrow-up-right-from-square title-arrow"></i>
+            </h3>
+
+            <ul class="project-bullets">
+              <li>Developed a full-stack diary app using Flask, JavaScript, HTML, and CSS to create, edit, and manage daily entries.</li>
+              <li>Integrated secure user authentication and database storage to protect confidential journal records.</li>
+            </ul>
+
+            <div class="project-tech-stack">
+              <span class="tech-pill">Flask</span>
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">HTML/CSS</span>
+              <span class="tech-pill">User Auth</span>
+              <span class="tech-pill">Vercel</span>
+            </div>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://my-diary-project-mu.vercel.app/" target="_blank" rel="noopener noreferrer"
+              class="btn btn-primary btn-sm">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+            <a href="https://github.com/suresh703143/my-diary-project.git" target="_blank" rel="noopener noreferrer"
+              class="btn btn-secondary btn-sm">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 4: Weather Web Application (API / Tools) -->
+        <div class="project-card" data-category="tools">
+          <div>
+            <div class="project-card-header">
+              <span class="project-category-badge">API Integration</span>
+              <span class="project-status-pill deployed"><i class="fas fa-circle-check"></i> Deployed on Pages</span>
+            </div>
+
+            <h3 class="project-title">
+              Weather Web Application
+              <i class="fas fa-arrow-up-right-from-square title-arrow"></i>
+            </h3>
+
+            <ul class="project-bullets">
+              <li>Built a responsive weather app using HTML, CSS, and JavaScript to display real-time city climate data.</li>
+              <li>Integrated WeatherAPI to dynamically fetch and display live temperature, humidity, and weather conditions.</li>
+            </ul>
+
+            <div class="project-tech-stack">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">WeatherAPI</span>
+              <span class="tech-pill">GitHub Pages</span>
+            </div>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://suresh703143.github.io/weather-app/" target="_blank" rel="noopener noreferrer"
+              class="btn btn-primary btn-sm">
+              <i class="fas fa-external-link-alt"></i> Live Demo
+            </a>
+            <a href="https://github.com/suresh703143/weather-app.git" target="_blank" rel="noopener noreferrer"
+              class="btn btn-secondary btn-sm">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 5: Chrome Extension (Extension / Tools) -->
+        <div class="project-card" data-category="tools">
+          <div>
+            <div class="project-card-header">
+              <span class="project-category-badge">Chrome Extension</span>
+              <span class="project-status-pill extension"><i class="fab fa-chrome"></i> Extension</span>
+            </div>
+
+            <h3 class="project-title">
+              FocusGuard &mdash; YouTube Focus Extension
+              <i class="fas fa-arrow-up-right-from-square title-arrow"></i>
+            </h3>
+
+            <ul class="project-bullets">
+              <li>Built a Chrome extension (JS, HTML, CSS) to dynamically block YouTube recommendations and Shorts using Mutation Observer and DOM manipulation.</li>
+              <li>Integrated Chrome Storage API to power Focus Mode controls and track distraction usage statistics in a custom popup UI.</li>
+            </ul>
+
+            <div class="project-tech-stack">
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">HTML/CSS</span>
+              <span class="tech-pill">Mutation Observer</span>
+              <span class="tech-pill">DOM Manipulation</span>
+              <span class="tech-pill">Chrome Storage API</span>
+            </div>
+          </div>
+
+          <div class="project-actions">
+            <a href="https://github.com/suresh703143/FocusGuard-Extension" target="_blank" rel="noopener noreferrer"
+              class="btn btn-secondary btn-sm">
+              <i class="fab fa-github"></i> View GitHub Repository
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT SECTION
+       ========================================================================== -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">// Connect</div>
+        <h2 class="section-title">Get In <span class="accent-text">Touch</span></h2>
+        <p class="section-subtitle">Open for 3-4 month internship opportunities, web development projects, and collaboration.</p>
+      </div>
+
+      <div class="contact-card-box">
+        <p class="contact-text">
+          Whether you have an internship opportunity, a project to collaborate on, or just want to connect &mdash; feel free to reach out directly!
+        </p>
+
+        <div class="email-display-box">
+          <i class="fas fa-envelope" style="color:var(--accent-sky);"></i>
+          <span id="email-address">sureshyalamanchi2005@gmail.com</span>
+          <button class="copy-btn" id="copy-email-btn" title="Copy Email to Clipboard">
+            <i class="fas fa-copy"></i>
+          </button>
+        </div>
+
+        <div class="social-links-row">
+          <a href="mailto:sureshyalamanchi2005@gmail.com" class="social-icon-btn" title="Send Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="https://github.com/suresh703143" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+            title="GitHub Profile">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/suresh-kumar-yalamanchi" target="_blank" rel="noopener noreferrer"
+            class="social-icon-btn" title="LinkedIn Profile">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        Designed &amp; Developed by <strong>Y. Suresh Kumar</strong> &copy; 2026. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Toast Notification element -->
+  <div class="toast-notice" id="toast-notice">
+    <i class="fas fa-circle-check" style="color:var(--accent-teal);"></i>
+    <span>Email copied to clipboard!</span>
+  </div>
+
+  <!-- ==========================================================================
+       JAVASCRIPT SCRIPTS
+       ========================================================================== -->
+  <script>
+    // ── Particle Canvas Background Animation ────────────────────────────
+    (function () {
+      const canvas = document.getElementById('particles-canvas');
+      const ctx = canvas.getContext('2d');
+      let particles = [];
+      const particleCount = 42;
+
+      function resizeCanvas() {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+      }
+      resizeCanvas();
+      window.addEventListener('resize', resizeCanvas);
+
+      class Particle {
+        constructor() { this.reset(); }
+        reset() {
+          this.x = Math.random() * canvas.width;
+          this.y = Math.random() * canvas.height;
+          this.radius = Math.random() * 1.4 + 0.6;
+          this.vx = (Math.random() - 0.5) * 0.35;
+          this.vy = (Math.random() - 0.5) * 0.35;
+          this.alpha = Math.random() * 0.45 + 0.15;
+        }
+        update() {
+          this.x += this.vx;
+          this.y += this.vy;
+          if (this.x < 0 || this.x > canvas.width || this.y < 0 || this.y > canvas.height) {
+            this.reset();
+          }
+        }
+        draw() {
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(56, 189, 248, ${this.alpha})`;
+          ctx.fill();
+        }
+      }
+
+      for (let i = 0; i < particleCount; i++) {
+        particles.push(new Particle());
+      }
+
+      function connectParticles() {
+        for (let i = 0; i < particles.length; i++) {
+          for (let j = i + 1; j < particles.length; j++) {
+            const dx = particles[i].x - particles[j].x;
+            const dy = particles[i].y - particles[j].y;
+            const dist = Math.sqrt(dx * dx + dy * dy);
+            if (dist < 105) {
+              ctx.beginPath();
+              ctx.moveTo(particles[i].x, particles[i].y);
+              ctx.lineTo(particles[j].x, particles[j].y);
+              ctx.strokeStyle = `rgba(56, 189, 248, ${0.07 * (1 - dist / 105)})`;
+              ctx.lineWidth = 0.6;
+              ctx.stroke();
+            }
+          }
+        }
+      }
+
+      function animate() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        particles.forEach(p => {
+          p.update();
+          p.draw();
+        });
+        connectParticles();
+        requestAnimationFrame(animate);
+      }
+      animate();
+    })();
+
+
+    // ── Navbar Scroll & Active Highlight ────────────────────────────────
+    const navbar = document.getElementById('navbar');
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 40) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+
+      let currentSectionId = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 140;
+        const sectionHeight = section.offsetHeight;
+        if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
+          currentSectionId = section.getAttribute('id');
+        }
+      });
+
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === `#${currentSectionId}`) {
+          link.classList.add('active');
+        }
+      });
+    });
+
+    // ── Mobile Menu Toggle ──────────────────────────────────────────────
+    const mobileToggle = document.getElementById('mobile-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    mobileToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      const icon = mobileToggle.querySelector('i');
+      if (navMenu.classList.contains('active')) {
+        icon.className = 'fas fa-times';
+      } else {
+        icon.className = 'fas fa-bars';
+      }
+    });
+
+    navMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        mobileToggle.querySelector('i').className = 'fas fa-bars';
+      });
+    });
+
+    // ── Project Category Filter ─────────────────────────────────────────
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filterValue = btn.getAttribute('data-filter');
+
+        projectCards.forEach(card => {
+          if (filterValue === 'all') {
+            card.classList.remove('hidden');
+          } else {
+            const cardCategory = card.getAttribute('data-category');
+            if (cardCategory === filterValue) {
+              card.classList.remove('hidden');
+            } else {
+              card.classList.add('hidden');
+            }
+          }
+        });
+      });
+    });
+
+    // ── Copy Email Feature with Toast ───────────────────────────────────
+    const copyBtn = document.getElementById('copy-email-btn');
+    const emailText = document.getElementById('email-address').textContent;
+    const toast = document.getElementById('toast-notice');
+
+    copyBtn.addEventListener('click', () => {
+      navigator.clipboard.writeText(emailText).then(() => {
+        copyBtn.innerHTML = '<i class="fas fa-check" style="color: var(--accent-teal);"></i>';
+        toast.classList.add('show');
+        setTimeout(() => {
+          copyBtn.innerHTML = '<i class="fas fa-copy"></i>';
+          toast.classList.remove('show');
+        }, 2400);
+      }).catch(err => {
+        console.error('Failed to copy email:', err);
+      });
+    });
+  </script>
+</body>
+
+</html>
